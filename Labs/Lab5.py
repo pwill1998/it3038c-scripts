@@ -6,14 +6,6 @@ SecondGuess=int
 print (x)
 print('guess what number i picked')
 MyNumber=int(input())
-#guess a number game, where a random number is generated
-import time
-from random import *
-x=randint(1,1000)
-SecondGuess=int
-print (x)
-print('guess what number i picked')
-MyNumber=int(input())
 while MyNumber != x:
 
     if MyNumber>x:
